@@ -1,0 +1,66 @@
+body{
+    color: white;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Rubik Bubbles', cursive;
+}
+
+#tools{
+    display:flex;
+    flex-direction: row;
+    background-color: #282b30;
+    height: 80px;
+    padding: 5px;
+    border: 10px black;
+}
+
+#tools label{
+    padding-top: 25px;
+    margin-right: 6px;
+    margin-left: 6px;
+    color: white;
+}
+
+output{
+    padding-top: 25px;
+    color: white;
+    padding-right: 6px;
+}
+
+#tools #lineSize{
+    margin-right: 0%;
+}
+
+#tools #fillCheck
+{
+    margin-right: 20px;
+}
+
+#tools #lblChk{
+    padding-top: 29px;
+}
+
+#tools #stroke{
+    margin-top: 20px;
+ }
+
+#tools #lineSize{
+    height: 25%;
+    margin-top: 25px;
+    margin-right: 20px;
+ }
+
+h1{
+    padding-right: 20px;
+    padding-left: 10px;
+    color: white;
+    margin-top: 25px;
+}
+
+#paintApp #canvas{
+    border: 10px white;
+    display: flex;
+    flex-direction: column;
+}

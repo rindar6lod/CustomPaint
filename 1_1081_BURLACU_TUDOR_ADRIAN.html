@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./1_1081_BURLACU_TUDOR_ADRIAN.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet"> 
+    <title>PaitnMM</title>
+</head>
+<body>
+    <section class="drawingTools">
+        <div id="tools">
+            <h1>Drawing tools</h1>
+
+            <label for="stroke">Stroke</label>
+            <input type="color" name="Stroke Tool" id="stroke">
+
+            <label for="lineSize">Pen size</label>
+            <input type="range" min="1" max="50" name="Pen Size" id="lineSize" value="3" oninput="this.nextElementSibling.value = this.value">
+            <output>3</output>
+
+            <label for="fillCheck" id="lblChk">Fill Shape</label>
+            <input type="checkbox" name="Fill Shape" id="fillCheck">
+            
+            <button id="pencilBtn"><img src="./media/pencil.png" alt="asd" id="pencilBtn" height="30" width="30"></button>
+            
+            <button id="drawTriangle"><img src="./media/triangle.png" alt="asd" id="drawTriangle" height="30" width="30"></button>
+            <button id="drawRectangle"><img src="./media/rectangle.png" alt="asd" id="drawRectangle" height="30" width="30"></button>
+            <button id="drawEllipse"><img src="./media/ellipse.png" alt="asd" id="drawEllipse" height="30" width="30"></button>
+            <button id="drawLine"><img src="./media/line.png" alt="asd" id="drawLine" height="30" width="30"></button>
+            <button id="bkgFill"><img src="./media/bucket.png" alt="asd" id="bkgFill" height="30" width="30"></button>
+            <button id="clearBtn"><img src="./media/bin.jpg" alt="asd" id="clearBtn" height="30" width="30"></button>
+            <button id="savPng"><img src="./media/save.jpg" alt="asd" id="savPng" height="30" width="30"></button>
+        </div>
+        <div id="paintApp">
+            <canvas id="canvas"></canvas>
+        </div>
+    </section>
+    <script src="./1_1081_BURLACU_TUDOR_ADRIAN.js"></script>
+</body>
+</html>
